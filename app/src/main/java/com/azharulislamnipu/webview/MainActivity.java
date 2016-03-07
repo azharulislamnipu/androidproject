@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
                 webView.getSettings().setLoadsImagesAutomatically(true);
                 webView.getSettings().setJavaScriptEnabled(true);
                 webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-                webView.loadUrl("http://www.daffodilvarsity.edu.bd/");
+                webView.loadUrl("http://www.google.com/");
 
             }
 
@@ -89,5 +89,11 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void multyple(){
+        int number;
+        float x;
+
     }
 }
